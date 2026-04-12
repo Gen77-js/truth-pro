@@ -1,19 +1,25 @@
+# Web framework
 fastapi==0.108.0
 uvicorn==0.25.0
 pydantic==2.5.3
 python-multipart==0.0.6
-requests==2.31.0
-openai-whisper
-easyocr
-numpy<2.0.0
 python-dotenv
-ddgs
+
+# HTTP & Search
+requests==2.31.0
 duckduckgo-search
 wikipedia
-groq
-torch
-torchvision
+
+# AI/ML — torch & torchvision installed separately via nixpacks.toml (CPU-only)
 transformers
 sentence-transformers
+easyocr
 opencv-python-headless
 Pillow
+numpy<2.0.0
+
+# Audio
+openai-whisper
+
+# LLM APIs
+groq
